@@ -14,7 +14,7 @@ serif; */
     height: 52px; */
     color: rgb(255, 255, 255);
     padding: 16px 25px 16px 25px;
-    font-family: Work Sans;
+    /* font-family: Work Sans; */
     font-size: 16px;
     font-weight: 600;
     line-height: 18px;
@@ -25,8 +25,11 @@ serif; */
     border: none;
     cursor: pointer;
 }
+.btn:active {
+    background: rgb(66, 158, 0);
+}
 #champion {
-    position: absolute;
+    position: unset;
     width: 1536px;
     height: 710px;
     background-position: center;
@@ -44,13 +47,11 @@ serif; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
-
 }
 #champion .champion-content .subtitle {
     opacity: 0.8px;
     color: rgb(255, 255, 255);
-    font-family: Work Sans;
+    /* font-family: Work Sans; */
     font-size: 25px;
     font-weight: 600;
     line-height: 30px;
@@ -60,7 +61,7 @@ serif; */
 }
 #champion .champion-content .title {
     color: rgb(255, 255, 255);
-    font-family: Work Sans;
+    /* font-family: Work Sans; */
     font-size: 51px;
     font-weight: 700;
     line-height: 64px;
@@ -70,7 +71,7 @@ serif; */
 }
 #champion .champion-content .description {
     color: rgb(255, 255, 255);
-    font-family: Work Sans;
+    /* font-family: Work Sans; */
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -79,3 +80,106 @@ serif; */
     opacity: 0.7;
     margin-bottom: 25px;
 }
+#card-box {
+    width: 1056px;
+    margin: 140px auto;
+}
+#card-box .subtitle {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    /* font-family: Work Sans; */
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box .title {
+    color: rgb(16, 16, 16);
+    font-size: 38px;
+    /* font-family: Work Sans; */
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    width: 495px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 38px;
+}
+#card-box .card {
+    width: 339px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+#card-box .card .img-box {
+    width: 339px;
+}
+#card-box .card .img-box img {
+    width: 100%;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+#card-box .card .shop {
+    text-align: center;
+    border-radius: 8px;
+    padding: 11px 25px 11px 25px;
+    background: rgba(82, 195, 3, 0.15);
+}
+/* about-section-styles */
+#about-section {
+    width: 1536px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about-section .img-box {
+    width: 768px;
+}
+#about-section .img-box img {
+    width: 100%;
+}
+#about-section .about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 664px;
+    gap: 32px;
+    margin: 19px 50px;
+}
+#about-section .title {
+    color: rgb(16, 16, 16);
+    font-size: 38px;
+    /* font-family: Work Sans; */
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: auto;
+}
+#about-section .about-info .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+ }
+ #about-section .about-info.subtitle2 {
+ color: rgb(16, 16, 16);
+ font-family: Work Sans;
+ font-size: 25px;
+ font-weight: 600;
+ line-height: 30px;
+ letter-spacing: 0%;
+ text-align: center;
+opacity: 0.7;
+ }
