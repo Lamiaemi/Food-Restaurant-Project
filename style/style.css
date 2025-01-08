@@ -181,5 +181,65 @@ serif; */
  line-height: 30px;
  letter-spacing: 0%;
  text-align: center;
-opacity: 0.7;
+ opacity: 0.7;
+ }
+ #social-section {
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(160deg, rgb(240, 234, 234) 2.884%, rgba(255, 252, 252,.7) 101.034%), url("../assets/social-bg.png");
+    width: 1545px;
+    height: 493px;
+ }
+ #social-section .social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 664px;
+    height: 398px;
+    gap: 20px;
+ }
+ #social-section .social-container .subtitle2 {
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    padding: 24px 8px 24px 8px;
+    width: 1056px;
+    height: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+ }
+ #social-section .social-container .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+ }
+ #social-section .social-container .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
  }
